@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body{
+    margin:0;
+    background-color: #B5A99C;
+    font-family: 'Montserrat';
+}
+a{
+    color: #EFB20C;
+}
+.active a{
+    color: #EFB20C !important;
+}
+
+p, li{
+    font-size: 20px;
+}
+
+.btn-primary {
+    color: black !important;
+    background-color: #EFB20C !important;
+    border-color: black !important;
+    font-weight: bold;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+.btn-quiz{
+    color: black !important;
+    background-color: #EBB463 !important;
+    border-color: black !important;
+    font-weight: bold;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-quiz:hover:not([disabled]){
+    background-color: #B3631D !important;
+}
+.btn-quiz:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    width:150px;
+    padding:10px;
+    margin:20px auto 0; 
+    border-radius: 4px;
+    cursor:pointer;
+    display:none;
+}
+
+.correct{
+    background-color: #96DB6E !important;
+}
+.incorrect{
+    background-color: #C03424 !important;
+}
+#contactPage{
+    background-color: #E4D6CC;
+    height: 90vh;
+}
+#contactHead{
+
+    padding: 4px;
+}
+
